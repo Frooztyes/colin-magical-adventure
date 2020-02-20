@@ -37,6 +37,6 @@ public class TPSMouseLook : MonoBehaviour
 
     void MoveCharacter()
     {
-        myRigidBody.MovePosition(transform.position + change * speed * Time.deltaTime);
+        //myRigidBody.MovePosition(transform.position + change * speed * Time.deltaTime);
     }
 }

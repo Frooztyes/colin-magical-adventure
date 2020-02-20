@@ -6,42 +6,35 @@ public class OpenDetection : MonoBehaviour
 {
     BoxCollider boxCollider;
     Animator animator;
-    Animation animation;
-    bool isAnimated;
     // Start is called before the first frame update
     void Start()
     {
         boxCollider = GetComponent<BoxCollider>();
-        //animator = GetComponentInChildren<Animator>();
-        animation = GetComponentInChildren<Animation>();
-        isAnimated = false;
+        animator = GetComponentInChildren<Animator>();
+        //animation = GetComponentInChildren<Q>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        /*if (isAnimated && animation["OpenDoor"].normalizedTime == 1)
-        {
-            
-            isAnimated = false;
-            animation.Stop();
-        }*/
+        
     }
 
     void OnTriggerStay(Collider other){
 
-        Debug.Log(animation);
+        //Debug.Log(animator);
         if(other.gameObject.tag == "Player")
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                animation.Play("OpenDoor");
-                isAnimated = true;
+                Debug.Log("Key a down");
+                /*animation.Play("OpenDoor");
+                isAnimated = true;*/
+                animator.SetBool("isOpen", true);
             }
-                //animator.SetBool("isOpen", true);
+                
 
-            Debug.Log("collision with player");
+            //Debug.Log("collision with player");
         }
 
     }
