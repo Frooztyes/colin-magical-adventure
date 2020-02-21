@@ -9,6 +9,7 @@ TagManager:
   - floor2
   - Door
   - Floor
+  - Walls
   layers:
   - Default
   - TransparentFX
