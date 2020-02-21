@@ -8,16 +8,12 @@ using UnityEngine.UI;
 public class ConsoleCommandProcessing : MonoBehaviour {
 
     private GameObject player;
-    //private RespawnManager respMana;
-    private RigidbodyFirstPersonController rigi;
     private List<string> commandList;
 
     // Use this for initialization
     public void processing(string commandString)
     {
-        /*player = GameObject.FindGameObjectWithTag("Player");
-        respMana = player.GetComponent<RespawnManager>();
-        rigi = GameObject.FindGameObjectWithTag("Player").GetComponent< RigidbodyFirstPersonController>();
+        player = GameObject.FindGameObjectWithTag("Player");
 
         List<string> commandList = new List<string>();
         //Parse string command into list
@@ -33,12 +29,12 @@ public class ConsoleCommandProcessing : MonoBehaviour {
                 resX = float.TryParse(commandList[1], out x);
                 resY = float.TryParse(commandList[2], out y);
                 resZ = float.TryParse(commandList[3], out z);
-                if(resX && resY && resZ)
+                if (resX && resY && resZ)
                     Teleportation(x, y, z);
                 else
                     Debug.Log("Erreur");
             }
-            else
+            /*else
             {
                 switch (commandList[1])
                 {
@@ -56,9 +52,9 @@ public class ConsoleCommandProcessing : MonoBehaviour {
                         Debug.Log("Erreur");
                         break;
                 }
-            } 
+            } */
         }
-        //Teleportation command
+        /*//Teleportation command
         else if (commandList[0] == "respawn")
         {
             Teleportation(respMana.LevelState.ToString());
@@ -125,9 +121,9 @@ public class ConsoleCommandProcessing : MonoBehaviour {
         }
         else if (commandList[0] == "unlockall")
         {
-            GameObject[] objects= GameObject.FindGameObjectsWithTag("Enigma");
+            GameObject[] objects= GameObject.FindGameObjectsWithTag("Door");
             foreach (GameObject objet in objects)
-                objet.GetComponent<Enigma>().Unlocked = true;
+                objet.GetComponent<OpenDetection>().Unlocked = true;
             Debug.Log("Toutes les énigmes ont été débloquées");
         }
         else if (commandList[0] == "lockall")
@@ -160,13 +156,13 @@ public class ConsoleCommandProcessing : MonoBehaviour {
     /*public void Teleportation(string place)
     {
         respMana.Respawn(player, place);
-    }
+    }*/
     public void Teleportation(float x, float y, float z)
     {
-        respMana.Respawn(player, x, y, z);
+        player.transform.position = new Vector3(x, y, z);
     }
 
-    //Change Multiplier value into RigidbodyFirstPersonController.cs
+    /*//Change Multiplier value into RigidbodyFirstPersonController.cs
     public void SpeedMultiplier(float number)
     {
         rigi.movementSettings.SpeedMultiplier = number;
