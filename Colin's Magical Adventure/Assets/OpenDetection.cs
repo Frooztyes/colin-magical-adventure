@@ -21,7 +21,7 @@ public class OpenDetection : MonoBehaviour
     }
 
     void OnTriggerStay(Collider other){
-
+        
         //Debug.Log(animator);
         if(other.gameObject.tag == "Player")
         {
@@ -30,7 +30,14 @@ public class OpenDetection : MonoBehaviour
                 Debug.Log("Key a down");
                 /*animation.Play("OpenDoor");
                 isAnimated = true;*/
-                animator.SetBool("isOpen", true);
+                if (!animator.GetBool("isOpen"))
+                {
+                    animator.SetBool("isOpen", true);
+                }
+                else
+                {
+                    animator.SetBool("isOpen", false);
+                }
             }
                 
 
@@ -41,10 +48,10 @@ public class OpenDetection : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        GameObject newNeighbor = other.GetComponent<CapsuleCollider>().gameObject;
+        /*GameObject newNeighbor = other.GetComponent<CapsuleCollider>().gameObject;
         if (newNeighbor.tag == "Player")
         {
             animator.SetBool("isOpen", false);
-        }
+        }*/
     }
 }
