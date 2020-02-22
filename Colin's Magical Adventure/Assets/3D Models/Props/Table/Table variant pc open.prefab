@@ -166,6 +166,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3496548597899276249}
     m_Modifications:
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: souris
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -235,16 +245,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6137685
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: souris
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -376,6 +376,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3496548597899276249}
     m_Modifications:
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -445,16 +455,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer
-      objectReference: {fileID: 0}
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
