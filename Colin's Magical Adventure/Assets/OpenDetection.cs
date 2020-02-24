@@ -54,4 +54,12 @@ public class OpenDetection : MonoBehaviour
             animator.SetBool("isOpen", false);
         }*/
     }
+    public void openDoor()
+    {
+        animator.SetBool("isOpen", true);
+    }
+    public void closeDoor()
+    {
+        animator.SetBool("isOpen", false);
+    }
 }

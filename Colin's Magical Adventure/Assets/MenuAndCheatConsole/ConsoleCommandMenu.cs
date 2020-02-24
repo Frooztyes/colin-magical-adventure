@@ -12,7 +12,7 @@ public class ConsoleCommandMenu : MonoBehaviour
     private float m_TimeScaleRef = 1f;
     private float m_VolumeRef = 1f;
     private bool m_Paused;
-    private RigidbodyFirstPersonController player;
+    private PlayerMovement player;
     [SerializeField] private InputField commandField;
     private List<string> commandList;
     private string commandString;
@@ -24,7 +24,7 @@ public class ConsoleCommandMenu : MonoBehaviour
     }
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<RigidbodyFirstPersonController>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
         ConsoleCommandProcessing = new ConsoleCommandProcessing();
     }
 
