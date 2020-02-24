@@ -8,12 +8,16 @@ using UnityEngine.UI;
 public class ConsoleCommandProcessing : MonoBehaviour {
 
     private GameObject player;
+    private PlayerMovement playerMovement;
     private List<string> commandList;
 
     // Use this for initialization
     public void processing(string commandString)
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+
+        playerMovement = player.GetComponent<PlayerMovement>();
 
         List<string> commandList = new List<string>();
         //Parse string command into list
@@ -54,24 +58,7 @@ public class ConsoleCommandProcessing : MonoBehaviour {
                 }
             } */
         }
-        /*//Teleportation command
-        else if (commandList[0] == "respawn")
-        {
-            Teleportation(respMana.LevelState.ToString());
-        }
-        //Item Command
-        else if (commandList[0] == "item" && commandList.Count == 2)
-        {
-            switch (commandList[1])
-            {
-                case "key":
-                    Debug.Log("Item Clef");
-                    break;
-                default:
-                    Debug.Log("Erreur");
-                    break;
-            }
-        }
+        
         //Speed change command
         else if ((commandList[0] == "speedmultiplier") && commandList.Count == 2)
         {
@@ -119,37 +106,25 @@ public class ConsoleCommandProcessing : MonoBehaviour {
                     Debug.Log("Erreur");
             }
         }
-        else if (commandList[0] == "unlockall")
+        else if (commandList[0] == "openall")
         {
             GameObject[] objects= GameObject.FindGameObjectsWithTag("Door");
+
             foreach (GameObject objet in objects)
-                objet.GetComponent<OpenDetection>().Unlocked = true;
-            Debug.Log("Toutes les énigmes ont été débloquées");
+                objet.GetComponent<OpenDetection>().openDoor();
+            
+            Debug.Log("Toutes les portes sont ouvertes");
         }
-        else if (commandList[0] == "lockall")
+        else if (commandList[0] == "closeall")
         {
-            GameObject[] objects = GameObject.FindGameObjectsWithTag("Enigma");
+            GameObject[] objects = GameObject.FindGameObjectsWithTag("Door");
             foreach (GameObject objet in objects)
-            {
-                objet.GetComponent<Enigma>().Unlocked = false;
-                objet.GetComponentInChildren<NumericDisplayManager>().ChangeColorChain(Color.white);
-                objet.GetComponentInChildren<Text>().text = "XXXX";
-            }
-            Debug.Log("Toutes les énigmes ont été bloquées");
-        }
-        else if (commandList[0] == "key")
-        {
-            GameObject[] objects = GameObject.FindGameObjectsWithTag("ObjectSpawner");
-            foreach (GameObject objet in objects)
-            {
-                if (!(objet.transform.childCount > 1)){
-                    objet.GetComponent<SpawnItem>().Start();
-                }
-            }
-            Debug.Log("Toutes les clefs sont disponibles");
+                objet.GetComponent<OpenDetection>().closeDoor();
+
+            Debug.Log("Toutes les portes sont fermées");
         }
         else
-            Debug.Log("Erreur");*/
+            Debug.Log("Erreur");
     }
 
     //Use RespawnManager.cs method
@@ -159,16 +134,16 @@ public class ConsoleCommandProcessing : MonoBehaviour {
     }*/
     public void Teleportation(float x, float y, float z)
     {
-        player.transform.position = new Vector3(x, y, z);
+        playerMovement.transform.position = new Vector3(x, y, z);
     }
 
-    /*//Change Multiplier value into RigidbodyFirstPersonController.cs
+    //Change Multiplier value into player
     public void SpeedMultiplier(float number)
     {
-        rigi.movementSettings.SpeedMultiplier = number;
+        playerMovement.speedMultiplier = number;
     }
     public void JumpMultiplier(float number)
     {
-        rigi.movementSettings.JumpMultiplier = number;
-    }*/
+        playerMovement.jumpMultiplier = number;
+    }
 }
