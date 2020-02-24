@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &7809919911857677612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7104708797002814970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000005, y: 0.020000007, z: 0.02000001}
+  m_Center: {x: 0, y: -0.00000023841858, z: 0}
 --- !u!114 &8015443530463983083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,6 +25,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e23b1d77d800a46aea96389c487cfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  imageToOpen: {fileID: 0}
+  imageNull: {fileID: 0}
 --- !u!1001 &1277071847585565939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22,7 +38,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 98a78e1236797134393213df46389f4a,
         type: 3}
       propertyPath: m_Name
-      value: copie
+      value: Sql copie
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 98a78e1236797134393213df46389f4a,
         type: 3}
