@@ -14,6 +14,12 @@ public class GameRules : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(PlayerPrefs.GetInt("SheetTaken"));
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            foreach(Sprite go in GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>().getSheets())
+            {
+                Debug.Log(go.name);
+            }
+        }
     }
 }
