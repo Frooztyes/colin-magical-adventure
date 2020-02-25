@@ -378,6 +378,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179684338888151}
     m_Modifications:
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -447,11 +452,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -589,6 +589,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683368011711}
     m_Modifications:
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -659,11 +664,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65
       objectReference: {fileID: 0}
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -695,6 +695,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179684338888151}
     m_Modifications:
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -765,11 +770,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50000083
       objectReference: {fileID: 0}
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -779,7 +779,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a44025a3cc35ffc49b2764e9c10f4112, type: 2}
+      objectReference: {fileID: 2100000, guid: ce62f6c7670779b4fadf25a7ce716c92, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac62d1982741614fb64ca1dfd375673, type: 3}
 --- !u!4 &8572498711592010970 stripped
@@ -801,6 +801,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683368011711}
     m_Modifications:
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -871,11 +876,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -901,6 +901,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683368011711}
     m_Modifications:
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -971,11 +976,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50000095
       objectReference: {fileID: 0}
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -985,7 +985,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a44025a3cc35ffc49b2764e9c10f4112, type: 2}
+      objectReference: {fileID: 2100000, guid: ce62f6c7670779b4fadf25a7ce716c92, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac62d1982741614fb64ca1dfd375673, type: 3}
 --- !u!1 &8572498710940080576 stripped
@@ -1007,6 +1007,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179684338888151}
     m_Modifications:
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1076,11 +1081,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
