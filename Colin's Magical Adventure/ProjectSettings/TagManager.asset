@@ -11,6 +11,8 @@ TagManager:
   - Floor
   - Walls
   - HUD
+  - SheetContainers
+  - Inventory
   layers:
   - Default
   - TransparentFX

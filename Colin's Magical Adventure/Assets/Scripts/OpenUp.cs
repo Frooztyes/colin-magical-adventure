@@ -9,6 +9,7 @@ public class OpenUp : MonoBehaviour
     public Sprite imageToOpen;
     public Sprite imageNull;
     private Inventory inventory;
+    public GameObject inventoryGameObject;
 
     private bool open = false;
     // Start is called before the first frame update
@@ -36,9 +37,10 @@ public class OpenUp : MonoBehaviour
                     PlayerPrefs.SetInt("SheetOpen", 0);
                     image.transform.parent.gameObject.SetActive(false);
                     open = false;
-                    Destroy(this.gameObject);
                     PlayerPrefs.SetInt("SheetTaken", PlayerPrefs.GetInt("SheetTaken")+1);
-                    inventory.addSheet(imageToOpen);
+                    
+                    inventory.addSheet(Instantiate(this.gameObject, inventoryGameObject.transform));
+                    Destroy(this.gameObject);
 
                 }
             }

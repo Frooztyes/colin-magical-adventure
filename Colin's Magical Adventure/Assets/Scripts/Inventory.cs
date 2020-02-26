@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    private List<Sprite> sheets;
+    private List<GameObject> sheets;
     // Start is called before the first frame update
     void Start()
     {
-        sheets = new List<Sprite>();
+        sheets = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -17,12 +17,12 @@ public class Inventory : MonoBehaviour
         
     }
 
-    public List<Sprite> getSheets()
+    public List<GameObject> getSheets()
     {
         return sheets;
     }
 
-    public void addSheet(Sprite gameObject)
+    public void addSheet(GameObject gameObject)
     {
         if(gameObject != null)
             sheets.Add(gameObject);

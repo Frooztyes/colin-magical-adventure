@@ -16,7 +16,7 @@ public class GameRules : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            foreach(Sprite go in GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>().getSheets())
+            foreach(GameObject go in GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>().getSheets())
             {
                 Debug.Log(go.name);
             }
