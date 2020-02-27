@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
 
+    public AudioSource stepSound;
+
     // Update is called once per frame
     void Update()
     {
@@ -36,6 +38,20 @@ public class PlayerMovement : MonoBehaviour
             float z = Input.GetAxis("Vertical");
 
             Vector3 move = (transform.right * x + transform.forward * z) * speedMultiplier;
+            Debug.Log(move);
+
+            if (move != Vector3.zero)
+            {
+                stepSound.loop = true;
+                if (!stepSound.isPlaying)
+                {
+                    stepSound.Play();
+                }
+            }
+            if (move == Vector3.zero)
+            {
+                stepSound.Stop();
+            }
 
             controller.Move(move * speed * Time.deltaTime);
 

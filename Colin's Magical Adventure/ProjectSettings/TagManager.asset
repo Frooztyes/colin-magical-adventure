@@ -13,6 +13,7 @@ TagManager:
   - HUD
   - SheetContainers
   - Inventory
+  - Minimap
   layers:
   - Default
   - TransparentFX
