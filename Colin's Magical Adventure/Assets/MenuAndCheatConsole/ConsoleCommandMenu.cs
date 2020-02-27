@@ -80,6 +80,7 @@ public class ConsoleCommandMenu : MonoBehaviour
 
         if (commandField.text != "" && Input.GetKey(KeyCode.Return))
         {
+            m_MenuToggle.isOn = false;
             commandString = commandField.text;
             commandField.text = "";
             ConsoleCommandProcessing.processing(commandString);
