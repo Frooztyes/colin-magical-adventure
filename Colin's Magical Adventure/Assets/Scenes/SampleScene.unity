@@ -6519,6 +6519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: walls
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 04ea5c2638162644796af428301f56fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 04ea5c2638162644796af428301f56fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8996,6 +9001,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: etage0-relief Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 908553900395501818, guid: 1641fbde09016a54f86111d23e6f2cb8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4233538876352260841, guid: 1641fbde09016a54f86111d23e6f2cb8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10576,6 +10586,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d4d8fb0d185f6e549bba28415bb75be7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Walls
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d4d8fb0d185f6e549bba28415bb75be7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d4d8fb0d185f6e549bba28415bb75be7,
         type: 3}
@@ -19783,7 +19803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069365739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1, y: 6.05, z: -18.78}
+  m_LocalPosition: {x: 3.08, y: 3.025, z: -18.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 109121441}
