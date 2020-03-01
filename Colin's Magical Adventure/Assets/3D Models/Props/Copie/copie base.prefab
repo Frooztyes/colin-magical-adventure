@@ -11,8 +11,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020000005, y: 0.020000007, z: 0.02000001}
-  m_Center: {x: 0, y: -0.00000023841858, z: 0}
+  m_Size: {x: 0.020056525, y: 0.020000007, z: 0.02000001}
+  m_Center: {x: -0.00002826053, y: -0.00000023842037, z: -1.9306872e-17}
 --- !u!114 &8015443530463983083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28,6 +28,7 @@ MonoBehaviour:
   image: {fileID: 0}
   imageToOpen: {fileID: 0}
   imageNull: {fileID: 0}
+  inventoryGameObject: {fileID: 0}
 --- !u!1001 &1277071847585565939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38,7 +39,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 98a78e1236797134393213df46389f4a,
         type: 3}
       propertyPath: m_Name
-      value: Sql copie
+      value: copie base
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 98a78e1236797134393213df46389f4a,
         type: 3}

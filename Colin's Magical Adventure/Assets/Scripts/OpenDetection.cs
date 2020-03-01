@@ -22,8 +22,7 @@ public class OpenDetection : MonoBehaviour
 
     void OnTriggerStay(Collider other){
         
-        //Debug.Log(animator);
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.name == "Hand")
         {
             if (Input.GetKeyDown(KeyCode.E))
             {

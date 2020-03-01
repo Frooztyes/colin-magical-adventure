@@ -14,6 +14,7 @@ TagManager:
   - SheetContainers
   - Inventory
   - Minimap
+  - Sheets
   layers:
   - Default
   - TransparentFX
