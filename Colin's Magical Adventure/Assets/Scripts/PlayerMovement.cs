@@ -38,7 +38,6 @@ public class PlayerMovement : MonoBehaviour
             float z = Input.GetAxis("Vertical");
 
             Vector3 move = (transform.right * x + transform.forward * z) * speedMultiplier;
-            Debug.Log(move);
 
             if (move != Vector3.zero)
             {
