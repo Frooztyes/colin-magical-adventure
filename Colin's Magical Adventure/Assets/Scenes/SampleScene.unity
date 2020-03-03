@@ -127,11 +127,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590758092}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -201,6 +196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.84000045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -672,11 +672,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631102998}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -747,6 +742,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -766,11 +766,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503730296}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -840,6 +835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -1382,7 +1382,7 @@ Transform:
   - {fileID: 367291506}
   - {fileID: 567768631}
   - {fileID: 1938354939}
-  - {fileID: 118695048}
+  - {fileID: 239024895}
   m_Father: {fileID: 654407168}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2140,6 +2140,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8714530740562334241, guid: 1fafd7cafb34d6d4babda96928c5aa25,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5a571edd64119694c9f59775841b58d3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fafd7cafb34d6d4babda96928c5aa25, type: 3}
 --- !u!1001 &59589980
@@ -2461,11 +2466,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1823512665}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2536,6 +2536,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50002605
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -2560,11 +2565,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 750377089}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2635,6 +2635,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50002605
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -2691,11 +2696,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2765,6 +2765,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -2952,11 +2957,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1474398134}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3026,6 +3026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -3686,11 +3691,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1717931444}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3760,6 +3760,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -4256,11 +4261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1164824668}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4330,6 +4330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -4479,11 +4484,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1164824668}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4553,6 +4553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -4737,12 +4742,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70e55305bf1b44241934bd9afb6a82b5, type: 3}
---- !u!4 &118695048 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
-    type: 3}
-  m_PrefabInstance: {fileID: 239024894}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &125094787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 406439552204943794, guid: bb3f1d427dcaa7443bce9b3ad556b850,
@@ -4762,11 +4761,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 384712497}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4837,6 +4831,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -4875,11 +4874,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1717931444}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4950,6 +4944,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5000007
       objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -5011,11 +5010,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1129713225}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5085,6 +5079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -5252,11 +5251,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1492291954}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5327,6 +5321,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5000007
       objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -5388,11 +5387,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708531249}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5462,6 +5456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -6643,11 +6642,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590758092}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6717,6 +6711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -7057,11 +7056,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7132,6 +7126,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6500002
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -7176,11 +7175,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 384712497}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7250,6 +7244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -7515,11 +7514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 750377089}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7590,6 +7584,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -7634,11 +7633,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227423591}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7708,6 +7702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -8004,11 +8003,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 37553160}
     m_Modifications:
-    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
-        type: 3}
-      propertyPath: m_Name
-      value: extincteur prefab Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8064,8 +8058,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -81.9
       objectReference: {fileID: 0}
+    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
+        type: 3}
+      propertyPath: m_Name
+      value: extincteur prefab Variant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e20e931d2813324ead5739ef4234bf1, type: 3}
+--- !u!4 &239024895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6459675033407024842, guid: 1e20e931d2813324ead5739ef4234bf1,
+    type: 3}
+  m_PrefabInstance: {fileID: 239024894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &246794909 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
@@ -8799,11 +8804,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708531249}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8873,6 +8873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -9168,11 +9173,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 525281959}
     m_Modifications:
-    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
-        type: 3}
-      propertyPath: m_Name
-      value: extincteur prefab Variant (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9243,11 +9243,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.3694098
       objectReference: {fileID: 0}
+    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
+        type: 3}
+      propertyPath: m_Name
+      value: extincteur prefab Variant (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e20e931d2813324ead5739ef4234bf1, type: 3}
 --- !u!4 &281899634 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
+  m_CorrespondingSourceObject: {fileID: 6459675033407024842, guid: 1e20e931d2813324ead5739ef4234bf1,
     type: 3}
   m_PrefabInstance: {fileID: 281899633}
   m_PrefabAsset: {fileID: 0}
@@ -9539,11 +9544,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1760641559}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9613,6 +9613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -10149,11 +10154,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2029198945}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10223,6 +10223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -10835,11 +10840,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 539933643}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10909,6 +10909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -11311,11 +11316,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 597191535}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11385,6 +11385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -12142,11 +12147,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1090661211}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12217,6 +12217,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12236,11 +12241,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: screen
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12311,6 +12311,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65000045
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: screen
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12330,11 +12335,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12404,6 +12404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -13269,7 +13274,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 651773cf22e382545b7a708e167ff0fd, type: 3}
-  m_Color: {r: 0.6886792, g: 0.6464489, b: 0.6464489, a: 1}
+  m_Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13400,11 +13405,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 597191535}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13474,6 +13474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -13736,11 +13741,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1310231811}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13810,6 +13810,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -14526,11 +14531,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907977074}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14600,6 +14600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -14748,11 +14753,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1090661211}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14822,6 +14822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -14926,11 +14931,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1632571744}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15000,6 +15000,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -15144,11 +15149,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1632571744}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15219,6 +15219,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.84
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15238,11 +15243,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 384712497}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15312,6 +15312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -15968,11 +15973,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 407190066}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16042,6 +16042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -16309,11 +16314,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 920213394}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: mouse
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16383,6 +16383,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: mouse
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -16533,11 +16538,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16607,6 +16607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -17180,11 +17185,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1474398134}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17254,6 +17254,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -17473,11 +17478,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1492291954}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17547,6 +17547,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -17871,6 +17876,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1488161473993419814, guid: 1641fbde09016a54f86111d23e6f2cb8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d0d5ed4ee92e854f8d7cd0a26788399, type: 2}
     - target: {fileID: 4233538876352260841, guid: 1641fbde09016a54f86111d23e6f2cb8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17941,11 +17951,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 100.00006
       objectReference: {fileID: 0}
-    - target: {fileID: 1488161473993419814, guid: 1641fbde09016a54f86111d23e6f2cb8,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3d0d5ed4ee92e854f8d7cd0a26788399, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1641fbde09016a54f86111d23e6f2cb8, type: 3}
 --- !u!4 &513258172
@@ -17970,11 +17975,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 773949479}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18044,6 +18044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -18452,11 +18457,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 488981422}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18526,6 +18526,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -18807,11 +18812,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1760641559}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18881,6 +18881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -19993,11 +19998,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 859273329}
     m_Modifications:
-    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
-        type: 3}
-      propertyPath: m_Name
-      value: extincteur prefab Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20053,11 +20053,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -30.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
+        type: 3}
+      propertyPath: m_Name
+      value: extincteur prefab Variant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e20e931d2813324ead5739ef4234bf1, type: 3}
 --- !u!4 &568072716 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
+  m_CorrespondingSourceObject: {fileID: 6459675033407024842, guid: 1e20e931d2813324ead5739ef4234bf1,
     type: 3}
   m_PrefabInstance: {fileID: 568072715}
   m_PrefabAsset: {fileID: 0}
@@ -20256,11 +20261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1717931444}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20330,6 +20330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -20754,11 +20759,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1310231811}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20828,6 +20828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -20952,11 +20957,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 539933643}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21026,6 +21026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -21416,11 +21421,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631102998}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21490,6 +21490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -22230,11 +22235,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1271485478}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22304,6 +22304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -22433,11 +22438,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1965364458}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22507,6 +22507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -23113,11 +23118,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907977074}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23187,6 +23187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -23612,11 +23617,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 773949479}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23686,6 +23686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -23865,11 +23870,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 465945075}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23939,6 +23939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -24123,11 +24128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1831849188}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24198,6 +24198,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -24217,11 +24222,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2029198945}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24291,6 +24291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -24734,11 +24739,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 682135161}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24808,6 +24808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -25618,11 +25623,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 176094791}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25693,6 +25693,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -25723,11 +25728,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: screen
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25798,6 +25798,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6500002
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: screen
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -25817,11 +25822,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 597191535}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25891,6 +25891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -27225,11 +27230,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1632571744}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27299,6 +27299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -27409,11 +27414,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227423591}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27483,6 +27483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -29085,11 +29090,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 465945075}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29159,6 +29159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -29338,11 +29343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 176094791}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29412,6 +29412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -29997,11 +30002,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 488981422}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30071,6 +30071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -30529,11 +30534,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 407190066}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30603,6 +30603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -30817,11 +30822,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179685262528545}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30891,6 +30891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -31161,11 +31166,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1271485478}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31235,6 +31235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -31566,11 +31571,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1760641559}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31640,6 +31640,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -32107,11 +32112,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 750377089}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32181,6 +32181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -32672,11 +32677,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227423591}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32746,6 +32746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -33669,11 +33674,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1491379891}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33743,6 +33743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -33917,11 +33922,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179685262528545}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33991,6 +33991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -34470,11 +34475,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 407190066}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34545,6 +34545,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50002605
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -34569,11 +34574,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1491379891}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34643,6 +34643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -34789,11 +34794,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590758092}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34864,6 +34864,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.9000002
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -34930,11 +34935,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: screen
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35004,6 +35004,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: screen
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -35256,11 +35261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631102998}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35330,6 +35330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -35458,11 +35463,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1492291954}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35532,6 +35532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -36330,11 +36335,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1823512665}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36404,6 +36404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -36868,11 +36873,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1474398134}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36942,6 +36942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -37587,11 +37592,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37661,6 +37661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -37973,11 +37978,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1653182770}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38047,6 +38047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -39298,11 +39303,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907977074}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39372,6 +39372,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -39588,7 +39593,7 @@ Transform:
   m_GameObject: {fileID: 1099943261}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 15.635, y: 1.549, z: 0.7745}
-  m_LocalScale: {x: 0.023219999, y: 0.023219999, z: 0.023219999}
+  m_LocalScale: {x: 0.023219997, y: 0.023219999, z: 0.023219999}
   m_Children: []
   m_Father: {fileID: 859273329}
   m_RootOrder: 11
@@ -40285,11 +40290,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1227423591}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40360,6 +40360,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -40379,11 +40384,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 773949479}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40454,6 +40454,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.50002605
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -40478,11 +40483,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 176094791}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40552,6 +40552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -40762,11 +40767,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2029198945}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40836,6 +40836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -41276,11 +41281,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503730296}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41351,6 +41351,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -41376,11 +41381,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 427426082}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41450,6 +41450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -41657,11 +41662,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 597191535}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41731,6 +41731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -42063,11 +42068,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1943725004}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42137,6 +42137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -42277,11 +42282,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 773949479}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42352,6 +42352,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -42371,11 +42376,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 427426082}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42446,6 +42446,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -42509,11 +42514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 427426082}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42583,6 +42583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -42759,11 +42764,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736114207}
     m_Modifications:
-    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
-        type: 3}
-      propertyPath: m_Name
-      value: extincteur prefab Variant (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42819,11 +42819,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -81.9
       objectReference: {fileID: 0}
+    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
+        type: 3}
+      propertyPath: m_Name
+      value: extincteur prefab Variant (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e20e931d2813324ead5739ef4234bf1, type: 3}
 --- !u!4 &1189239848 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
+  m_CorrespondingSourceObject: {fileID: 6459675033407024842, guid: 1e20e931d2813324ead5739ef4234bf1,
     type: 3}
   m_PrefabInstance: {fileID: 1189239847}
   m_PrefabAsset: {fileID: 0}
@@ -42876,11 +42881,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1943725004}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42950,6 +42950,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -43334,11 +43339,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 682135161}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43408,6 +43408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -44184,11 +44189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1965364458}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44258,6 +44258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -44407,11 +44412,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2029198945}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44481,6 +44481,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -46545,11 +46550,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1271485478}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46619,6 +46619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -47103,11 +47108,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590758092}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47177,6 +47177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -47477,11 +47482,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1631102998}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47551,6 +47551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -47766,11 +47771,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400104359}
     m_Modifications:
-    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
-        type: 3}
-      propertyPath: m_Name
-      value: extincteur prefab Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47826,11 +47826,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -30.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1976513086540513461, guid: 1e20e931d2813324ead5739ef4234bf1,
+        type: 3}
+      propertyPath: m_Name
+      value: extincteur prefab Variant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e20e931d2813324ead5739ef4234bf1, type: 3}
 --- !u!4 &1341591897 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3257973859898258086, guid: 1e20e931d2813324ead5739ef4234bf1,
+  m_CorrespondingSourceObject: {fileID: 6459675033407024842, guid: 1e20e931d2813324ead5739ef4234bf1,
     type: 3}
   m_PrefabInstance: {fileID: 1341591896}
   m_PrefabAsset: {fileID: 0}
@@ -47958,11 +47963,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708531249}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48032,6 +48032,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -48866,11 +48871,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1653182770}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48941,6 +48941,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -48960,11 +48965,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: screen
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49034,6 +49034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: screen
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -49556,11 +49561,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 750377089}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49630,6 +49630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -49849,11 +49854,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1491379891}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49923,6 +49923,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -50033,11 +50038,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 465945075}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50107,6 +50107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -50392,11 +50397,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1632571744}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50466,6 +50466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -50802,11 +50807,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50876,6 +50876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -51835,11 +51840,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: mouse
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51909,6 +51909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: mouse
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -52488,6 +52493,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8714530740562334241, guid: 1fafd7cafb34d6d4babda96928c5aa25,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0a23d6b46b19e3a43b640f1392eebea2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fafd7cafb34d6d4babda96928c5aa25, type: 3}
 --- !u!1001 &1477771642
@@ -52931,11 +52941,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1831849188}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53005,6 +53010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -53375,11 +53385,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1653182770}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53449,6 +53454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -54470,11 +54480,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1164824668}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54545,6 +54550,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -54570,11 +54580,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54644,6 +54649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -54774,11 +54784,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1164824668}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54848,6 +54853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -55236,11 +55246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1653182770}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55310,6 +55315,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -55627,11 +55637,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 427426082}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55701,6 +55706,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -55994,11 +56004,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 539933643}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56068,6 +56073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -56093,11 +56103,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1717931444}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56167,6 +56172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -56271,11 +56281,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1943725004}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56346,6 +56351,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6500002
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -56371,11 +56381,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 539933643}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56445,6 +56450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -56900,11 +56910,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1271485478}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56975,6 +56980,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -57013,11 +57023,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 384712497}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57087,6 +57092,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -57212,11 +57222,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1823512665}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57287,6 +57292,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5000007
       objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -57312,11 +57322,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1823512665}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57386,6 +57391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -58956,11 +58966,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1129713225}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59030,6 +59035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -59188,11 +59198,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1310231811}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59262,6 +59267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -60124,11 +60134,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1831849188}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60199,6 +60204,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -60218,11 +60228,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1129713225}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60292,6 +60297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -61179,11 +61189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1310231811}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61253,6 +61258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -61379,11 +61389,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 176094791}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61453,6 +61458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.84000045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -62162,11 +62172,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1491379891}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62236,6 +62241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -63065,11 +63075,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 488981422}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63139,6 +63144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -64164,11 +64174,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: screen
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64239,6 +64244,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6500002
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: screen
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -64258,11 +64268,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1129713225}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64332,6 +64337,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -64435,11 +64445,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1831849188}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64509,6 +64514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -65265,11 +65275,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: clavier
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65340,6 +65345,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6500002
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: clavier
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -65390,11 +65400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1090661211}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65464,6 +65469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -65633,11 +65643,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179685262528545}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65707,6 +65712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -65889,11 +65899,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1965364458}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65963,6 +65968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -66856,11 +66866,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1853237963}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: screen
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66930,6 +66935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: screen
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -67110,11 +67120,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1965364458}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -67184,6 +67189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -68363,11 +68373,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 682135161}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -68437,6 +68442,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -69617,11 +69627,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 682135161}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -69691,6 +69696,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -70376,11 +70386,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503730296}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -70450,6 +70455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -71223,11 +71233,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1760641559}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71298,6 +71303,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -71323,11 +71333,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907977074}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71397,6 +71402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -71968,11 +71978,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1090661211}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72042,6 +72047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7500013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
@@ -72147,11 +72157,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1492291954}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72221,6 +72226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -72420,11 +72430,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179685262528545}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72495,6 +72500,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -72555,11 +72565,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1474398134}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72629,6 +72634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -73021,11 +73031,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 920213394}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: keyboard
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73096,6 +73101,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.69999987
       objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: keyboard
+      objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -73120,11 +73130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 488981422}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73194,6 +73199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.50002605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -73463,11 +73473,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708531249}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73537,6 +73542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
@@ -73769,11 +73779,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 465945075}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -73843,6 +73848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -73948,11 +73958,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 407190066}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74023,6 +74028,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7500013
       objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -74042,11 +74052,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503730296}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -74116,6 +74121,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
@@ -76101,11 +76111,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683985669575}
     m_Modifications:
-    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
-        type: 3}
-      propertyPath: m_Name
-      value: Clavier g@mer (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1672176499202874487, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76175,6 +76180,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672176499202572375, guid: 4782bffced0c4054d85ce9435c3dac85,
+        type: 3}
+      propertyPath: m_Name
+      value: Clavier g@mer (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1672176499200581271, guid: 4782bffced0c4054d85ce9435c3dac85,
         type: 3}
@@ -76296,11 +76306,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683985669575}
     m_Modifications:
-    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
-        type: 3}
-      propertyPath: m_Name
-      value: computer1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2226416593112558175, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76371,6 +76376,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 2226416593112790655, guid: cac62d1982741614fb64ca1dfd375673,
+        type: 3}
+      propertyPath: m_Name
+      value: computer1 (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 2226416593114982591, guid: cac62d1982741614fb64ca1dfd375673,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -76390,11 +76400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683985669575}
     m_Modifications:
-    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
-        type: 3}
-      propertyPath: m_Name
-      value: computer3 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4491432421564668489, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76465,6 +76470,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4491432421565089385, guid: c4dc765758bc0604da05ca1232e10494,
+        type: 3}
+      propertyPath: m_Name
+      value: computer3 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4491432421567092905, guid: c4dc765758bc0604da05ca1232e10494,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -76516,11 +76526,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7499179683985669575}
     m_Modifications:
-    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
-        type: 3}
-      propertyPath: m_Name
-      value: computer (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 3148061184646953484, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76590,6 +76595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148061184646981164, guid: 94dc12a54fc0471489e0f4c9b0301092,
+        type: 3}
+      propertyPath: m_Name
+      value: computer (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3148061184649246956, guid: 94dc12a54fc0471489e0f4c9b0301092,
         type: 3}
