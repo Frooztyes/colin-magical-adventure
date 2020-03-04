@@ -8,7 +8,7 @@ public class Restart : MonoBehaviour
     public void RestartGame()
     {
         Debug.Log("Hi");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Loading");
     }
 
     public void RestartToMenu()
