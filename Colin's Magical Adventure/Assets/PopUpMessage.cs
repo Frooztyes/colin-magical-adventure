@@ -27,6 +27,11 @@ public class PopUpMessage : MonoBehaviour
             text.text = "Press E to open door";
         }
 
+        if (other.gameObject.tag == "SheetsContainers")
+        {
+            text.text = "Press E to put sheets on the table";
+        }
+
         if (other.gameObject.tag == "Sheets")
         {
             text.text = "Press E to inspect";
