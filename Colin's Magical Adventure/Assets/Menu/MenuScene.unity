@@ -5857,7 +5857,7 @@ GameObject:
   - component: {fileID: 1912317505}
   - component: {fileID: 1912317504}
   m_Layer: 0
-  m_Name: MissJirachi Coucou
+  m_Name: Musique
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5874,7 +5874,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243298864576003218, guid: 08b82f90aa8fd3040abb5510016cbc4c,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 1161550742338924593dd6279fe2d8fc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 406b429db3062284880542e77fb64ccf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5888,7 +5888,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
