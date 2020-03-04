@@ -37,10 +37,12 @@ public class SetSheets : MonoBehaviour
                     {
                         GameObject current = containers[inventory.IndexOf(gamo)];
                         GameObject newSheet = Instantiate(gamo, current.transform.position, Quaternion.Euler(-90f, 226.1f, 0));
+                        PlayerPrefs.SetInt("SheetsPut", PlayerPrefs.GetInt("SheetsPut") + 1);
                         
                         Destroy(newSheet.GetComponent<OpenUp>());
                         containers.Remove(current);
                         inventory.Remove(gamo);
+
                     }
                 }                
             }
