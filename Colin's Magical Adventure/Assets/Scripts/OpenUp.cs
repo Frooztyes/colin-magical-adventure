@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class OpenUp : MonoBehaviour
 {
+    public AudioSource sound;
     public GameObject image;
     public Sprite imageToOpen;
     public Sprite imageNull;
@@ -27,6 +28,7 @@ public class OpenUp : MonoBehaviour
             {
                 if (!open)
                 {
+                    sound.Play();
                     PlayerPrefs.SetInt("SheetOpen", 1);
                     image.transform.parent.gameObject.SetActive(true);
                     image.GetComponent<Image>().sprite = imageToOpen;

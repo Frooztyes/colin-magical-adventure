@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameRules : MonoBehaviour
 {
+    public int sheetsToWin = 9;
     public GameObject VictoryMessage;
     public GameObject DeathMessage;
     public AudioSource DeathSound;
@@ -23,7 +24,7 @@ public class GameRules : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(PlayerPrefs.GetInt("SheetsPut") == 1)
+        if(PlayerPrefs.GetInt("SheetsPut") == sheetsToWin)
         {
             VictoryMessage.SetActive(true);
             PlayerPrefs.SetInt("Victory", 1);

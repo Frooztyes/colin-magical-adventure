@@ -49,6 +49,11 @@ public class PopUpMessage : MonoBehaviour
         {
             text.text = "Press E to inspect";
         }
+
+        if (other.gameObject.tag == "SheetsContainers")
+        {
+            text.text = "Press E to put sheets on the table";
+        }
     }
 
     private void OnTriggerExit(Collider other)

@@ -36056,7 +36056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707198530}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.035999924, z: -2.0599995}
+  m_LocalPosition: {x: 0, y: 0.107, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1757254316}
@@ -36073,9 +36073,9 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.10077161
-  m_Height: 2.269742
+  m_Height: 2.2092533
   m_Direction: 1
-  m_Center: {x: 0, y: 2.9667528, z: 0.1048704}
+  m_Center: {x: 0, y: 1.0570738, z: 0.104870476}
 --- !u!114 &707198533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87209,6 +87209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e1605c801ff6940944dbe72485e484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sheetsToWin: 3
   VictoryMessage: {fileID: 658574673}
   DeathMessage: {fileID: 951429686}
   DeathSound: {fileID: 1746890233}
@@ -87728,7 +87729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757254315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3029999, z: -0.10099983}
+  m_LocalPosition: {x: 0, y: 0.3029999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 707198531}
