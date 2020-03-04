@@ -23,7 +23,8 @@ public class MouseLock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt("SheetOpen") == 0)
+        Debug.Log(PlayerPrefs.GetInt("IsDead"));
+        if (PlayerPrefs.GetInt("SheetOpen") == 0 && PlayerPrefs.GetInt("IsDead") == 0)
         {
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;

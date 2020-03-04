@@ -15,6 +15,7 @@ TagManager:
   - Inventory
   - Minimap
   - Sheets
+  - Ennemy
   layers:
   - Default
   - TransparentFX
