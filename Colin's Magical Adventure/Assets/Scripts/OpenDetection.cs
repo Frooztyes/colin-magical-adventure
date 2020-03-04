@@ -6,6 +6,8 @@ public class OpenDetection : MonoBehaviour
 {
     BoxCollider boxCollider;
     Animator animator;
+    public AudioSource open;
+    public AudioSource close;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +34,12 @@ public class OpenDetection : MonoBehaviour
                 if (!animator.GetBool("isOpen"))
                 {
                     animator.SetBool("isOpen", true);
+                    open.Play();
                 }
                 else
                 {
                     animator.SetBool("isOpen", false);
+                    close.PlayDelayed(0.5f);
                 }
             }
                 
