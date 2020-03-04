@@ -28,7 +28,7 @@ public class Grid : MonoBehaviour
     {
         grid = new Node[gridSizeX, gridSizeY];
         Vector3 bottomLeft = transform.position - Vector3.right * gridWorldSize.x / 2 - Vector3.forward * gridWorldSize.y / 2;
-        for(int y =0; y<gridSizeX; y++)
+        for(int y =0; y< gridSizeY; y++)
         {
             for(int x = 0; x<gridSizeX; x++)
             {
@@ -40,7 +40,16 @@ public class Grid : MonoBehaviour
                     Wall = false;
                 }
 
-                grid[x, y] = new Node(Wall, worldPoint, x, y);
+                try
+                {
+                    grid[x, y] = new Node(Wall, worldPoint, x, y);
+                }
+                catch (System.Exception s)
+                {
+                    Debug.Log(s);
+                    throw new System.Exception("Erreur");
+                }
+                
             }
         }
     }
