@@ -12,6 +12,7 @@ public class Option : MonoBehaviour
 
     public Dropdown resolutionDropdown;
     public Dropdown qualite;
+    public Slider sheet;
     private void Start()
     {
         int currentResolution = 0; // index de la résolution actif en se moment 
@@ -44,7 +45,7 @@ public class Option : MonoBehaviour
         qualite.value = qualiteIndex;
         qualite.RefreshShownValue();
 
-        
+        PlayerPrefs.SetInt("SheetToWin", 9);
 
     }
     public void SetVolume(float volume)
@@ -84,6 +85,11 @@ public class Option : MonoBehaviour
     public void SetResolution(int resolutionIndex)
     {
         Resolution resolution = resolutions[resolutionIndex]; // variable resolution
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);// propirété resolution
+        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);// propriété resolution
+    }
+
+    public void SetSheetNumber()
+    {
+        PlayerPrefs.SetInt("SheetToWin", (int)sheet.value);
     }
 }
