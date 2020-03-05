@@ -8,12 +8,12 @@ public class OpenDetection : MonoBehaviour
     Animator animator;
     public AudioSource open;
     public AudioSource close;
+    private bool canClose = false;
     // Start is called before the first frame update
     void Start()
     {
         boxCollider = GetComponent<BoxCollider>();
         animator = GetComponentInChildren<Animator>();
-        //animation = GetComponentInChildren<Q>();
     }
 
     // Update is called once per frame

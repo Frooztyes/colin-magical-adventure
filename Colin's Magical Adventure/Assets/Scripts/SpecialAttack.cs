@@ -22,7 +22,7 @@ public class SpecialAttack : MonoBehaviour
             Collider[] hitColliders = Physics.OverlapSphere(transform.position, radius, LayerMask);
             foreach(Collider c in hitColliders)
             {
-                c.gameObject.GetComponent<Chocked>().HasBeenChocked();
+                c.gameObject.GetComponent<Chocked>().HasBeenChocked();                
             }
         }
     }
