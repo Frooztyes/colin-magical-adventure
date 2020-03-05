@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public GameObject model;
+    private Animator anim;
 
     public float speed = 12f;
     public float gravity = -9.81f;
@@ -21,6 +23,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
 
     public AudioSource stepSound;
+
+    private void Start()
+    {
+        anim = model.GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -45,10 +52,12 @@ public class PlayerMovement : MonoBehaviour
                 if (!stepSound.isPlaying)
                 {
                     stepSound.Play();
+                    anim.SetBool("isRunning", true);
                 }
             }
             if (move == Vector3.zero)
             {
+                anim.SetBool("isRunning", false);
                 stepSound.Stop();
             }
 

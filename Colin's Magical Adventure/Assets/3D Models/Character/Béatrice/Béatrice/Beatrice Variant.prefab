@@ -47,7 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4ae9e661a81f9409da2c40937e587f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 5888826287187847836, guid: 7315f519c7fc1124fb60bd90059fb489, type: 3}
+  target: {fileID: 2936486870326522289, guid: 0f79e57a1a612f24195b7180e109db73, type: 3}
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &7650682591867892920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,6 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2af2f22c6b87446ada4ecf946b33c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChocked: 0
   timedChocked: 2
 --- !u!1001 &4741971710452230475
 PrefabInstance:
@@ -173,6 +177,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 60ed76c173c5bf84eb8e51b349a3c71c, type: 2}
+    - target: {fileID: -6057140222963153312, guid: dc93fcee254aba94885098894669261f,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74be7b36be6e2964490b99bd8c087d85, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc93fcee254aba94885098894669261f, type: 3}
 --- !u!1 &3670208519333457986 stripped

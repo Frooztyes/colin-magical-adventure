@@ -30,7 +30,6 @@ public class OpenDetection : MonoBehaviour
         
         if (other.gameObject.name == "Hand")
         {
-            Debug.Log(animator.GetBool("isOpen"));
             if (Input.GetKey(KeyCode.E))
             {
                 Debug.Log("Key a down");
