@@ -76,7 +76,13 @@ public class ConsoleCommandMenu : MonoBehaviour
             commandField.Select();
 
         if (Input.GetKey(KeyCode.Escape))
+        {
             m_MenuToggle.isOn = false;
+            if (Cursor.visible)
+                Cursor.visible = false;
+            else
+                Cursor.visible = true;
+        }
 
         if (commandField.text != "" && Input.GetKey(KeyCode.Return))
         {

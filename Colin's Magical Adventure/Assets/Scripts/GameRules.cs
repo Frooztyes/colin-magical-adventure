@@ -32,6 +32,7 @@ public class GameRules : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             PlayerPrefs.SetInt("Victory", 1);
             timer.Stop();
+            Cursor.visible = true;
         }
 
         if(PlayerPrefs.GetInt("IsDead") == 1)
@@ -42,6 +43,7 @@ public class GameRules : MonoBehaviour
             DeathSoundPlaying = true;
             timer.Stop();
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 }
