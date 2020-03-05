@@ -10,6 +10,7 @@ public class OpenUp : MonoBehaviour
     public Sprite imageToOpen;
     public Sprite imageNull;
     private Inventory inventory;
+    public Text text;
     public GameObject inventoryGameObject;
 
     private bool open = false;
@@ -33,14 +34,16 @@ public class OpenUp : MonoBehaviour
                     image.transform.parent.gameObject.SetActive(true);
                     image.GetComponent<Image>().sprite = imageToOpen;
                     open = true;
+                    text.text = "Prendre la copie(E)";
                 }
                 else
                 {
                     PlayerPrefs.SetInt("SheetOpen", 0);
                     image.transform.parent.gameObject.SetActive(false);
                     open = false;
+                    text.text = "";
                     PlayerPrefs.SetInt("SheetTaken", PlayerPrefs.GetInt("SheetTaken")+1);
-                    
+                    image.GetComponent<Image>().sprite = imageNull;
                     inventory.addSheet(Instantiate(this.gameObject, inventoryGameObject.transform));
                     Destroy(this.gameObject);
 
