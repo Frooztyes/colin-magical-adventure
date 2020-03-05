@@ -8,7 +8,8 @@ public class OpenDetection : MonoBehaviour
     Animator animator;
     public AudioSource open;
     public AudioSource close;
-    private bool canClose = false;
+    private float timer = 0.5f;
+    private bool timerIsPlaying = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +20,18 @@ public class OpenDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (timerIsPlaying)
+        {
+            timer -= Time.deltaTime;
+        }
     }
 
     void OnTriggerStay(Collider other){
         
         if (other.gameObject.name == "Hand")
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            Debug.Log(animator.GetBool("isOpen"));
+            if (Input.GetKey(KeyCode.E))
             {
                 Debug.Log("Key a down");
                 /*animation.Play("OpenDoor");
@@ -35,8 +40,9 @@ public class OpenDetection : MonoBehaviour
                 {
                     animator.SetBool("isOpen", true);
                     open.Play();
+                    timerIsPlaying = true;
                 }
-                else
+                else if(timer <= 0)
                 {
                     animator.SetBool("isOpen", false);
                     close.PlayDelayed(0.5f);

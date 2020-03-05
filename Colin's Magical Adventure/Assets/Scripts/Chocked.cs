@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Chocked : MonoBehaviour
 {
-    private bool isChocked = false;
+    public bool isChocked = false;
     public float timedChocked;
     private float timedChockedBase;
     // Start is called before the first frame update
