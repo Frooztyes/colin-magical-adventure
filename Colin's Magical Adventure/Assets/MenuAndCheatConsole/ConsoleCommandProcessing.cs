@@ -4,6 +4,7 @@ using System.Linq;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ConsoleCommandProcessing : MonoBehaviour {
 
@@ -123,9 +124,19 @@ public class ConsoleCommandProcessing : MonoBehaviour {
 
             Debug.Log("Toutes les portes sont fermées");
         }
+        /*else if (commandList[0] == "gotomenu")
+        {
+            SceneManager.LoadScene("MenuScene");
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else if (commandList[0] == "resetgame")
+        {
+            SceneManager.LoadScene("SampleScene");
+        }*/
         else
             Debug.Log("Erreur");
     }
+    
 
     //Use RespawnManager.cs method
     /*public void Teleportation(string place)

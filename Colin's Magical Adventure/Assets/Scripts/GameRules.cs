@@ -29,7 +29,9 @@ public class GameRules : MonoBehaviour
         if(PlayerPrefs.GetInt("SheetsPut") == sheetsToWin)
         {
             VictoryMessage.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
             PlayerPrefs.SetInt("Victory", 1);
+            timer.Stop();
         }
 
         if(PlayerPrefs.GetInt("IsDead") == 1)

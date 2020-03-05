@@ -32,7 +32,6 @@ public class OpenDetection : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E))
             {
-                Debug.Log("Key a down");
                 /*animation.Play("OpenDoor");
                 isAnimated = true;*/
                 if (!animator.GetBool("isOpen"))

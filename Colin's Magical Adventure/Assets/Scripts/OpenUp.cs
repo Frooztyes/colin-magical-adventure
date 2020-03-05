@@ -9,20 +9,23 @@ public class OpenUp : MonoBehaviour
     public GameObject image;
     public Sprite imageToOpen;
     public Sprite imageNull;
-    private Inventory inventory;
-    public Text text;
+    public Inventory inventoryScript;
+    public GameObject textObject;
+    private Text text;
     public GameObject inventoryGameObject;
 
     private bool open = false;
     // Start is called before the first frame update
     void Start()
     {
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        text = textObject.GetComponent<Text>();
     }
+    
 
     // Update is called once per frame
     void OnTriggerStay(Collider other)
     {
+
         if (other.gameObject.tag == "Player")
         {
             if (Input.GetKeyDown(KeyCode.E))
@@ -35,6 +38,7 @@ public class OpenUp : MonoBehaviour
                     image.GetComponent<Image>().sprite = imageToOpen;
                     open = true;
                     text.text = "Prendre la copie(E)";
+
                 }
                 else
                 {
@@ -44,7 +48,12 @@ public class OpenUp : MonoBehaviour
                     text.text = "";
                     PlayerPrefs.SetInt("SheetTaken", PlayerPrefs.GetInt("SheetTaken")+1);
                     image.GetComponent<Image>().sprite = imageNull;
-                    inventory.addSheet(Instantiate(this.gameObject, inventoryGameObject.transform));
+                    GameObject n = Instantiate(
+                            gameObject,
+                            inventoryGameObject.transform
+                            );
+                    inventoryScript.addSheet(n);
+                        
                     Destroy(this.gameObject);
 
                 }

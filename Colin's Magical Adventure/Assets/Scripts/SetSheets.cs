@@ -31,12 +31,13 @@ public class SetSheets : MonoBehaviour
             {
                 Debug.Log("Hi");
                 inventory = character.GetComponent<Inventory>().getSheets();
-                if(inventory.Count != 0)
+                if(inventory.Count >= PlayerPrefs.GetInt("SheetToWin"))
                 {
                     foreach (GameObject gamo in inventory.ToArray())
                     {
                         GameObject current = containers[inventory.IndexOf(gamo)];
                         GameObject newSheet = Instantiate(gamo, current.transform.position, Quaternion.Euler(-90f, 226.1f, 0));
+                        Destroy(newSheet.GetComponent<Collider>());
                         PlayerPrefs.SetInt("SheetsPut", PlayerPrefs.GetInt("SheetsPut") + 1);
                         
                         Destroy(newSheet.GetComponent<OpenUp>());

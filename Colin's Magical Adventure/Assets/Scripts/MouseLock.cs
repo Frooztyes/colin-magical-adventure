@@ -23,7 +23,7 @@ public class MouseLock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt("SheetOpen") == 0 && PlayerPrefs.GetInt("IsDead") == 0)
+        if (PlayerPrefs.GetInt("SheetOpen") == 0 && PlayerPrefs.GetInt("IsDead") == 0 && PlayerPrefs.GetInt("Victory") == 0)
         {
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -35,8 +35,14 @@ public class MouseLock : MonoBehaviour
             fov += Input.GetAxis("Mouse ScrollWheel") * fovSensitivity;
             fov = Mathf.Clamp(fov, minFov, maxFov);
             Camera.main.fieldOfView = fov;
-
-            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            if(PlayerPrefs.GetInt("View") == 2)
+            {
+                transform.localRotation = Quaternion.Euler(xRotation, 180f, 0f);
+            }
+            else
+            {
+                transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            }
             playerBody.Rotate(Vector3.up * mouseX);
         }
 
