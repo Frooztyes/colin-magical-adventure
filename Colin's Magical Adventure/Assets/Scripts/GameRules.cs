@@ -19,6 +19,9 @@ public class GameRules : MonoBehaviour
         PlayerPrefs.SetInt("SheetsPut", 0);
         PlayerPrefs.SetInt("Victory", 0);
         PlayerPrefs.SetInt("IsDead", 0);
+        if(PlayerPrefs.GetInt("SheetToWin")!=0)
+            sheetsToWin = PlayerPrefs.GetInt("SheetToWin");
+        Debug.Log(sheetsToWin);
     }
 
     // Update is called once per frame
