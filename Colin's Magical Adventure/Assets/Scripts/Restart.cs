@@ -7,13 +7,12 @@ public class Restart : MonoBehaviour
 {
     public void RestartGame()
     {
-        Debug.Log("Hi");
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene("Loading");
     }
 
     public void RestartToMenu()
     {
-        Debug.Log("Hi");
         SceneManager.LoadScene("MenuScene");
     }
 }

@@ -40,6 +40,18 @@ public class AgentController : MonoBehaviour
             agent.isStopped = true;
             anim.SetBool("isRunning", false);
         }
+
+        if (!chocked.isChocked)
+        {
+            anim.SetBool("isChocked", false);
+
+        }
+        else
+        {
+            anim.SetBool("isChocked", true);
+            anim.SetBool("isRunning", false);
+            agent.isStopped = true;
+        }
         
 
         

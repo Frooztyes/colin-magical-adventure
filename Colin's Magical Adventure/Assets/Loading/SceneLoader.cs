@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class SceneLoader : MonoBehaviour
     void Update()
     {
         // If the new scene has started loading...
-        if (loadScene == true)
+        if (loadScene)
         {
             // ...then pulse the transparency of the loading text to let the player know that the computer is still working.
             loadingText.color = new Color(loadingText.color.r, loadingText.color.g, loadingText.color.b, Mathf.PingPong(Time.time, 1));
@@ -46,8 +47,8 @@ public class SceneLoader : MonoBehaviour
        yield return new WaitForSeconds(2);
 
         // Start an asynchronous operation to load the scene that was passed to the LoadNewScene coroutine.
-        AsyncOperation async = Application.LoadLevelAsync(scene);
-
+        //AsyncOperation async = Application.LoadLevelAsync(scene);
+        AsyncOperation async = SceneManager.LoadSceneAsync(scene);
         // While the asynchronous operation to load the new scene is not yet complete, continue waiting until it's done.
         while (!async.isDone)
         {
